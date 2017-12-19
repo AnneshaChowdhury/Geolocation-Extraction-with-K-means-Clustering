@@ -1,0 +1,24 @@
+
+steps:
+get article title (based on topic) 
+get article (from url) - Ruchira
+assign article ids - data structure: list of article ids and urls
+for each article (based on id)
+	get Toponynms (place names) --> latitude, longitude (Cliff-Clavin)
+clustering based on lat/long 
+get list of article ids in each cluster (output of clustering)
+convert mean point for each cluster to place name - HOW??
+
+
+examples:
+
+cluster1 = [1, 3, 5, 7] #article ids
+cluster2 = [1, 4, 6, 19]
+cluster3 = [1, 2, 4]
+
+
+article 1 (texas, new york)
+article 2 (texas)
+article 3 (london)
+...
+article n (china, california)

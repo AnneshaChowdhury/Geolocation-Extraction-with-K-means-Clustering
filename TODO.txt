@@ -1,0 +1,17 @@
+TASKS LEFT TO DO
+
+0. store all article text (belinda)
+
+1. kmeans code
+	input: matrix
+	output: clusters (article locations paired with article ids)
+
+2. top 10 words from each cluster
+	input: take each cluster from kmeans output
+	output: find 10 ten words (word count)
+
+3. get each cluster centroid, pair with physical location (akshay)
+	
+4. report 
+	pdf
+	powerpoint
